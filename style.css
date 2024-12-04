@@ -244,12 +244,15 @@ nav {
     border-radius: 0;
 
 }
+.card-img-overlay{
+	position: unset;
+	padding: 0;
+}
 
-.card-img-overlay:hover {
+.card-img:hover {
 	filter: grayscale(0%);
 	transform: scale(1);
 	overflow: hidden;
-	position:none;
 }
 
 .card-title {
@@ -290,19 +293,19 @@ nav {
 /*footer*/
 
 
-.boxFooter {
+.row {
 	display: flex;
 	align-content: center;
 	width: 100%;
 
 }
 
-.footerLogo {
+.col-5{
 	flex-grow: 1;
 
 }
 
-.imageLogo {
+.img-fluid {
 	display: flex;
 	background-color: var(--main-color-2);
 	width: 100%;
@@ -322,7 +325,7 @@ nav {
 	align-content: center;
 }
 
-.boxTexte {
+.col-7 {
 	flex-grow: 2;
 
 
