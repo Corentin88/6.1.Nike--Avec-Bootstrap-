@@ -245,10 +245,11 @@ nav {
 
 }
 
-.card-img:hover {
+.card-img-overlay:hover {
 	filter: grayscale(0%);
 	transform: scale(1);
 	overflow: hidden;
+	position:none;
 }
 
 .card-title {
